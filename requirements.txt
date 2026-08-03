@@ -1,0 +1,38 @@
+# ============================================
+# Multi-Agent AI System for Enterprise DevSecOps
+# Incident Management - Dependencies
+# ============================================
+
+# --- Core Framework ---
+fastapi>=0.115.0
+uvicorn[standard]>=0.34.0
+python-dotenv>=1.0.0
+pydantic>=2.10.0
+pydantic-settings>=2.7.0
+
+# --- AI / LLM ---
+crewai>=1.15.0
+crewai-tools>=0.38.1
+langchain-google-genai>=2.0.8
+google-generativeai>=0.8.4
+
+# --- RAG / Vector Database ---
+chromadb>=0.6.3
+sentence-transformers>=3.3.0
+
+# --- Database ---
+sqlalchemy>=2.0.30
+aiosqlite>=0.20.0
+
+# --- WebSocket & Async ---
+websockets>=14.0
+
+# --- Data Processing ---
+numpy>=2.0.0
+pandas>=2.2.0
+
+# --- Utilities ---
+httpx>=0.28.0
+python-multipart>=0.0.20
+jinja2>=3.1.0
+markdown>=3.7
